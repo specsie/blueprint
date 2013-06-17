@@ -1,0 +1,20 @@
+{
+    "json-schema": [
+        "https://raw.github.com/specsie/foundation/master/schema.json"
+    ], 
+    "inherits": [
+    ], 
+    "includes": [
+
+    ], 
+    "specdoc": {
+        "spec": "https://github.com/specsie/blueprint.git"
+    }, 
+    "constraints": [
+        {
+            "constraint": "This specdoc does not conform to the blueprint spec."
+        }
+    ], 
+    "description": [
+    ]
+}

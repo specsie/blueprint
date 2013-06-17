@@ -1,0 +1,22 @@
+{
+    "json-schema": [
+        "https://raw.github.com/specsie/foundation/master/schema.json"
+    ], 
+    "inherits": [
+    ], 
+    "includes": [
+        "https://raw.github.com/specsie/build/master/specdoc.json", 
+        "/specdoc.json"
+    ], 
+    "specdoc": {
+        "spec": "https://github.com/specsie/blueprint.git"
+    }, 
+    "constraints": [
+        {
+            "constraint": "Every included specdoc is itself a doc which MUST conform to the specs in all specdoc properties referenced in this spec and all inherited specs recursively."
+        }
+    ], 
+    "description": [
+        "validate specdocs against a defined spec"
+    ]
+}
